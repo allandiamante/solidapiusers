@@ -1,6 +1,6 @@
 # API REST para Registro de Usuário e Envio de Email de Confirmação
 
-Este é um exemplo de um README simples para uma API REST construída em Node.js utilizando o framework Express. A API permite o registro de usuários e envia um email de confirmação para validar o registro. Os princípios SOLID foram aplicados para promover uma arquitetura sólida e extensível.
+API REST construída em Node.js utilizando o framework Express. A API permite o registro de usuários e envia um email de confirmação para validar o registro. Os princípios SOLID foram aplicados para promover uma arquitetura sólida e extensível.
 
 ## Configuração
 
