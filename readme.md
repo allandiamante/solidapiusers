@@ -36,14 +36,15 @@ Certifique-se de ter os seguintes requisitos instalados em sua máquina:
 
 4. Configure as variáveis de ambiente:
 
-   Crie um arquivo `.env` na raiz do projeto e defina as seguintes variáveis:
+   Edite o arquivo `src/providers/implementations/MailtrapMailProvider.ts` na raiz do projeto e defina as seguintes variáveis:
 
    ```env
-   PORT=3333
-   SMTP_HOST=smtp.exemplo.com
-   SMTP_PORT=587
-   SMTP_USERNAME=seu-email@exemplo.com
-   SMTP_PASSWORD=sua-senha
+    host: 'smtp.mailtrap.io',
+    port: 2525,
+    auth:{
+        user: '',
+        pass: ''
+        }
    ```
 
    Certifique-se de fornecer os valores corretos para sua configuração.
